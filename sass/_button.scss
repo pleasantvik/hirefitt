@@ -1,0 +1,15 @@
+.btn {
+  background-color: $color-btn-pry;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-family: $font-display;
+  font-size: 2.5rem;
+  padding: 2.8rem 11rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: $color-btn-sec;
+  }
+}
